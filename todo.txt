@@ -1,8 +1,9 @@
 football:
 
 1. debugging:
-- figure out timer stuff
-- be able to jump to time based on elapsed minutes given by API
+- make it actually stop when the match is over; it didn't (MAYBE ERROR FOUND)
+- change the extra time + the time elapsed above to reflect extra time
+
 
 2. live button:
 - be able to switch to simulated

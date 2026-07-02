@@ -16,7 +16,7 @@
         </div>
 
         <div class = "container">
-            <div id = "football" class = "football-page">
+            <div id = "football" class = "football-page active">
                 <!--this is football! -->
 
                 <!-- live or simulated? -->
@@ -33,9 +33,17 @@
 
                 <!-- competitors -->
                 <div class = "competitors">
-                    <img id="country-1" class = "flag">
+                    <div class = "competitor">
+                        <img id="country-1" class = "flag">
+                        <p><span id = "c1-abbrev"></span></p>
+                    </div>
+
                     <p style = "font-size: 25px;"> vs.</p>
-                    <img id="country-2" class = "flag">
+
+                    <div class = "competitor">
+                        <img id="country-2" class = "flag">
+                        <p><span id = "c2-abbrev"></span></p> 
+                    </div>
                 </div>
 
                 <!-- time (MOCKUP!) -->
@@ -49,7 +57,7 @@
                 </div>
             </div>
 
-            <div id = "formula1" class = "f1-page active">
+            <div id = "formula1" class = "f1-page">
                 <!-- this is f1!-->
              
                 <p> coming soon!</p>
@@ -88,10 +96,6 @@
                 <p> season begins August 20 </p>
             </div>
 
-        </div>
-
-        <div class = "break-button">
-            <p> take a break! </p> <!-- set this so that later you can switch between take a break and get back to studying-->
         </div>
     <script src = "script.js"></script>
     </body>
